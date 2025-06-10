@@ -24,7 +24,7 @@ A mobile app that detects face mask usage in real-time using a custom model trai
 ## 📸 Screenshots
 ## 📸 Screenshots
 
-![Face Mask App Screenshot](./screen_app.jpg)
+![Face Mask App Screenshot](./screenapp.jpg)
 
 ## 📁 Files
 - `model.tflite` – Trained model (Not included here)
