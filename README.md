@@ -22,9 +22,9 @@ A mobile app that detects face mask usage in real-time using a custom model trai
 5. Used device camera to classify mask status in real-time
 
 ## 📸 Screenshots
-## 📸 Screenshots
 
-![Face Mask App Screenshot](./screenapp.jpg)
+![Face Mask App Screenshot](
+screenapp.JPG)
 
 ## 📁 Files
 - `model.tflite` – Trained model (Not included here)
