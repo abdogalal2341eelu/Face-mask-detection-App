@@ -1,26 +1,64 @@
-# Face Mask Detection App 😷📱
+# 😷 Face Mask Detection – Real-time Android App with TFLite
 
-## 📱 Overview
-A mobile app that detects face mask usage in real-time using a custom model trained with [Teachable Machine](https://teachablemachine.withgoogle.com/). The model classifies faces into three categories: **With Mask**, **Without Mask**, and **Incorrect Mask**.
+This is a real-time face mask detection system built using [Teachable Machine](https://teachablemachine.withgoogle.com/) and deployed using **TensorFlow Lite** in an Android app.
 
-## 🧠 Classes Detected
-- 😷 **With Mask**  
-- ❌ **Without Mask**  
-- ⚠️ **Incorrect Mask Position**
+The model detects if a person is:
+- ✅ Wearing a mask properly
+- ❌ Not wearing a mask
+- ⚠️ Wearing the mask incorrectly
 
-## 🛠️ Tools Used
-- Teachable Machine (Image Classification)
-- TensorFlow Lite (Model Deployment)
-- Android Studio (Mobile App)
-- Java/Kotlin (Integration & Camera Handling)
+---
 
-## 🚀 How It Works
-1. Collected and labeled images for three classes
-2. Trained a model using Google's Teachable Machine
-3. Exported the model as a `.tflite` file
-4. Integrated it into an Android application
-5. Used device camera to classify mask status in real-time
+## 🎥 Demo Video
 
+📺 **Watch the live demo:**  
+👉 [Watch on Google Drive]([https://drive.google.com/file/d/YOUR_VIDEO_ID/view](https://drive.google.com/file/d/1udY0Rx1nNsh_3A_69wGHJ2NRmFVydXge/view?usp=sharing))  
+*(Replace with your actual video link)*
+
+---
+
+## 📸 Detection Screenshot
+
+A visual walkthrough of the app from launch to prediction:
+
+![Detection Screenshot](images/detection_demo.jpg)
+
+---
+
+## 🧠 Model Details
+
+- **Model Type:** Image Classification
+- **Trained Using:** Teachable Machine
+- **Model Format:** TensorFlow Lite (`.tflite`)
+- **Input Size:** 150x150 RGB
+- **Output Classes:**
+  - WithMask
+  - WithoutMask
+  - IncorrectMask
+
+---
+
+## 📱 Android App Integration
+
+The model is integrated into a native Android app and supports:
+- Live camera detection using `FaceDetector`
+- Gallery image classification
+- Real-time predictions using TFLite
+
+### 🛠 Tools Used
+- TensorFlow Lite
+- Google ML Kit (for Face Detection)
+- Android Studio (Java/Kotlin)
+- Teachable Machine (for training)
+
+---
+
+## 🚀 How to Use
+
+1. Open the project in **Android Studio**.
+2. Place the exported `.tflite` model inside the `assets/` directory.
+3. Make sure `Interpreter` is correctly loading the model.
+4. Build and run the app on a real Android device.
 ## 📸 Screenshots
 
 ![Face Mask App Screenshot](
