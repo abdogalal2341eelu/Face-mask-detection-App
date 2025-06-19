@@ -12,8 +12,7 @@ The model detects if a person is:
 ## 🎥 Demo Video
 
 📺 **Watch the live demo:**  
-👉 [Watch on Google Drive]([https://drive.google.com/file/d/YOUR_VIDEO_ID/view](https://drive.google.com/file/d/1udY0Rx1nNsh_3A_69wGHJ2NRmFVydXge/view?usp=sharing))  
-*(Replace with your actual video link)*
+👉 [Watch on Google Drive](https://drive.google.com/file/d/1udY0Rx1nNsh_3A_69wGHJ2NRmFVydXge/view?usp=sharing)
 
 ---
 
@@ -59,11 +58,3 @@ The model is integrated into a native Android app and supports:
 2. Place the exported `.tflite` model inside the `assets/` directory.
 3. Make sure `Interpreter` is correctly loading the model.
 4. Build and run the app on a real Android device.
-## 📸 Screenshots
-
-![Face Mask App Screenshot](
-screenapp.JPG)
-
-## 📁 Files
-- `model.tflite` – Trained model (Not included here)
-- `labels.txt` – Class labels: with_mask, without_mask, incorrect_mask
