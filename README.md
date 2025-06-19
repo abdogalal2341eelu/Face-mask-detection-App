@@ -20,7 +20,7 @@ The model detects if a person is:
 
 A visual walkthrough of the app from launch to prediction:
 
-![Detection Screenshot](ٍscreenapp.JPG)
+![Detection Screenshot](screenapp.JPG)
 
 ---
 
